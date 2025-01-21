@@ -12,7 +12,7 @@ import Userreducercount from './Userreducercount'
 import Useeffectapi from './Useeffectapi'
 import Userreducecrud1 from './Userreducecrud1'
 
-
+import My from './My'
 
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
     {/* <Userreducercount/> */}
     {/* <Useeffectapi/> */}
     {/* <Userreducecrud1/> */}
-    <My/>
+    {/* <My/> */}
   
     {/* <Task/> */}
     {/* <Agefinder/> */}

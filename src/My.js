@@ -51,7 +51,7 @@ function My() {
     <input type='text' onChange={handleinputChange} name="clientName" value={name.clientName}placeholder='clientName'/>
     <input type='text' onChange={handleinputChange} name="address" value={name.address}placeholder='address'/>
     <button type='submit'>submit</button>
-    <button>cancel</button>
+    <button type="button">cancel</button>
     </form> 
 </div>
     </div>
