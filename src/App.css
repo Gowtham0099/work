@@ -1,0 +1,118 @@
+/* General body styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('./image/log3.jpg');
+  background-size: cover;
+  height: 90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+/* Signup form container */
+form {
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 32px 79px; 
+  width: 100%;
+  max-width: 450px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 32px; 
+  text-align: center;
+  color: #333;
+  margin-bottom: 16px; 
+}
+
+h3,
+h4 {
+  margin-bottom: 8px; 
+  color: #555;
+  font-weight: 600;
+  text-align: left;
+  font-size: 16px; 
+}
+
+/* Input field styles */
+input {
+  width: 100%;
+  padding: 16px; 
+  margin-bottom: 16px; 
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px; 
+  background: #f9f9f9;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  padding: 16px 24px; 
+  font-size: 16px; 
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #6a11cb, #2575fc); 
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb); 
+  transform: scale(1.05); 
+}
+
+/* Error message styles */
+.text-danger {
+  color: red;
+  font-size: 14px; 
+  margin-top: -8px; 
+  margin-bottom: 16px; 
+  text-align: left;
+}
+
+/* Paragraph and link styles */
+p {
+  font-size: 14px; 
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+p a:hover {
+  color: #0056b3;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-16px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

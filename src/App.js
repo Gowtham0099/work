@@ -6,6 +6,11 @@ import Agefinder from './Agefinder'
 import Primeno from './Primeno'
 import Sigup from './Sigup'
 import Login from './Login'
+import './App.css'
+
+ 
+    
+
 import Timedate from './Timedate'
 import Context from './Context'
 import Userreducercount from './Userreducercount'
@@ -13,6 +18,12 @@ import Useeffectapi from './Useeffectapi'
 import Userreducecrud1 from './Userreducecrud1'
 
 import My from './My'
+import Category from './Category'
+import Client from './Client'
+import Test from './Test'
+import Employee from './Employee'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 
 
 function App() {
@@ -35,6 +46,28 @@ function App() {
   return (
     
     <div className='App'>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/'element={<Login/>}></Route>
+        <Route path='/Sigup'element={<Sigup/>}></Route>
+        <Route path='/Category'element={<Category/>}></Route>
+        <Route path='/Client'element={<Client/>}></Route>
+        <Route path='/Employee'element={<Employee/>}></Route>
+
+      </Routes>
+      </BrowserRouter>
+
+
+
+        
+    
+      {/* <Category/> */}
+      {/* <Client/>
+      <Employee/> */}
+
+      {/* <Test/> */}
+      {/* <Email/> */}
+      
     {/* <Timedate/> */}
     {/* <Context/> */}
     {/* <Userreducercount/> */}
